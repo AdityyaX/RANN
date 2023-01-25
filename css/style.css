@@ -217,7 +217,6 @@ h5,
 }
 
 .site-section {
-<<<<<<< HEAD
   padding: 2.5em 0; 
   
 }
@@ -226,20 +225,6 @@ h5,
       padding: 5em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
-=======
-  padding: 2.5em 0;
-}
-
-@media (min-width: 768px) {
-  .site-section {
-    padding: 5em 0;
-  }
-}
-
-.site-section.site-section-sm {
-  padding: 4em 0;
-}
->>>>>>> 28768de816ca2f6a2f4252d2a22602c1e832438f
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -1408,10 +1393,5 @@ h5,
 }
 
 .footer-section {
-<<<<<<< HEAD
   padding-top: 12rem !important; }
   
-=======
-  padding-top: 12rem !important;
-}
->>>>>>> 28768de816ca2f6a2f4252d2a22602c1e832438f
