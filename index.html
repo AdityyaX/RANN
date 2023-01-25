@@ -30,6 +30,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="/css/timer.css">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/jquery-ui.css">
@@ -115,10 +116,21 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 
 
       <div class="d-md-flex align-items-center">
-        <div class="hours mr-md-4 mb-4 mb-lg-0">
+        <!-- <div class="hours mr-md-4 mb-4 mb-lg-0">
           <strong class="d-block"></strong>
           Opening: 7:30am &mdash;
           Closing: 9:00pm
+        </div> -->
+        <div class="timercontainer">
+          <h1 id="headline" style="font-weight: bolder">Game Starts in</h1>
+          <div id="countdown">
+            <ul>
+              <li class="timerli"><span id="days"></span>Days</li>
+              <li class="timerli"><span id="hours"></span>Hours</li>
+              <li class="timerli"><span id="minutes"></span>Minutes</li>
+              <li class="timerli"><span id="seconds"></span>Seconds</li>
+            </ul>
+          </div>
         </div>
         <div class="cta ml-auto">
           <a href="#contact-section" class="smoothscroll d-flex d-md-flex align-items-center btn">
@@ -1613,6 +1625,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 
   </div>
   <!-- .site-wrap -->
+  <script src="/js/timer.js"></script>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
