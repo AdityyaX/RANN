@@ -4,6 +4,7 @@
 __pycache__
 db.sqlite3
 media
+statistics
 
 # Backup files # 
 *.bak 
@@ -136,5 +137,4 @@ GitHub.sublime-settings
 .history
 
 # DS Store
-
 .DS_Store
