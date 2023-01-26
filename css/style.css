@@ -1113,7 +1113,7 @@ h5,
 
 .ftco-feature-1 {
   text-align: center;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -1378,4 +1378,7 @@ h5,
 
 .footer-section {
   padding-top: 12rem !important; }
+  .guest-photo{
+  
+  }
   
