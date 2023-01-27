@@ -36,4 +36,5 @@ urlpatterns = [
     path('karate/', include('home.urls')),
     path('yoga/', include('home.urls')),
     path('online_games/', include('home.urls')),
+    path('coremember/', include('home.urls')),
 ]

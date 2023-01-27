@@ -21,4 +21,5 @@ urlpatterns = [
     path("karate/", views.karate, name="karate"),
     path("yoga/", views.yoga, name="yoga"),
     path("online_games/", views.online_games, name="online_games"),
+    path("coremember/", views.coremember, name="coremember"),
 ]

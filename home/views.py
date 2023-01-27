@@ -55,3 +55,6 @@ def yoga(request):
 def online_games(request):
     return render(request, 'online_games.html')
  
+def coremember(request):
+    return render(request, 'coremember.html')
+ 
