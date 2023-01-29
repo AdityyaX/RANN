@@ -15,7 +15,6 @@ urlpatterns = [
     path("pool/", views.pool, name="pool"),
     path("carrom/", views.carrom, name="carrom"),
     path("chess/", views.chess, name="chess"),
-    path("shot_put/", views.shot_put, name="shot_put"),
     path("athletics/", views.athletics, name="athletics"),
     path("kabbadi/", views.kabbadi, name="kabbadi"),
     path("karate/", views.karate, name="karate"),

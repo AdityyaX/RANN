@@ -37,9 +37,6 @@ def carrom(request):
 def chess(request):
     return render(request, 'chess.html')
  
-def shot_put(request):
-    return render(request, 'shot_put.html')
- 
 def athletics(request):
     return render(request, 'athletics.html')
  

@@ -945,7 +945,7 @@ h5,
 .intro-section,
 .intro-section .container .row {
   height: 100vh;
-  min-height: 900px;
+  /* min-height: 900px; */
 }
 
 .intro-section:before {
@@ -1009,7 +1009,8 @@ h5,
 }
 
 .schedule-wrap {
-  padding: 40px;
+  padding: 10px;
+  margin-top: 103px;
   background: #f23a2e;
   max-width: 700px;
   position: relative;
@@ -1068,11 +1069,44 @@ h5,
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+@media screen and (max-width:731px){
 
+  .schedule-wrap:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: inherit;
+    -webkit-transform-origin: none;
+  -ms-transform-origin: none;
+  transform-origin: none;
+  -webkit-transform: skew(0deg, 0deg);
+  -ms-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  }
+
+  .schedule-wrap2 {
+    padding: 40px;
+    background: #f23a2e;
+    width: 50%;
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    color: white;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
 @media (max-width: 991.98px) {
   .schedule-wrap2 {
     width: 90%;
   }
+  
 }
 
 .schedule-wrap2:before {
@@ -1378,7 +1412,4 @@ h5,
 
 .footer-section {
   padding-top: 12rem !important; }
-  .guest-photo{
-  
-  }
   

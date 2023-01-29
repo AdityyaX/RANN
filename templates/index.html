@@ -80,15 +80,15 @@
     </header>
 
     <a id="bgndVideo" class="player"
-      data-property="{videoURL:'https://www.youtube.com/watch?v=w-cRWOjlk8c',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:255, stopAt: 271, opacity:1}">
-    </a>
+      data-property="{videoURL:'https://youtu.be/Rj9namno3Go',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true,quality: 'hd1080', opacity:1}">
+    </a> 
 
     <div class="intro-section" id="home-section" style="background-color: #ccc;">
-      <div class="container">
+      <div class="container text-center">
 
         <div class="row align-items-center">
           <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-            <h1 class="mb-3">Unleash your inner athlete at our event!</h1>
+            <h1 class="mb-3">"Unleash your inner athlete at our event!</h1>
             <p class="text-center">
               <a href="#" class="btn btn-outline-white py-3 px-5">Get Started</a>
             </p>
@@ -99,9 +99,7 @@
     </div>
 
     <div class="schedule-wrap">
-
-
-
+      
       <div class="d-md-flex align-items-center">
        
         <div class="timercontainer">
@@ -261,7 +259,7 @@
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-8  section-heading">
             <h2 class="heading mb-3">Events</h2>
-            <p>Sportsmanship is about respect, excellence, fairness, and integrity. It is about giving your best, playing fair and following the rules of the game.</p>
+            <p>Sportsmanship is about respect, excellence, fairness, and integrity. It is about giving your best, playing fair and following the rules of the game."</p>
           </div>
         </div>
         <div class="row">
@@ -338,18 +336,6 @@
               </div>
             </div>
 
-            {% comment %} <div class="class-item d-flex align-items-center">
-              <a href="/shot_put/" class="class-item-thumbnail">
-                <img src="{% static 'images/shortput.jpeg' %}" alt="Free website template by Free-Template.co">
-              </a>
-              <div class="class-item-text">
-                
-                <h2><a href="/shot_put/">SHOT PUT</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
-              </div>
-            </div> {% endcomment %}
-
             <div class="class-item d-flex align-items-center">
               <a href="/athletics/" class="class-item-thumbnail">
                 <img src="{% static 'images/athletic.gif' %}" alt="Free website template by Free-Template.co">
@@ -357,6 +343,18 @@
               <div class="class-item-text">
                 
                 <h2><a href="/athletics/">ATHLETICS</a></h2>
+                {% comment %} <span>By Justin Daniel</span>,
+                <span>30 minutes</span> {% endcomment %}
+              </div>
+            </div>
+
+            <div class="class-item d-flex align-items-center">
+              <a href="/kabbadi/" class="class-item-thumbnail">
+                <img src="{% static 'images/neutral-removebg-preview.jpg' %}" alt="Free website template by Free-Template.co">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="/kabbadi/">KABADDI</a></h2>
                 {% comment %} <span>By Justin Daniel</span>,
                 <span>30 minutes</span> {% endcomment %}
               </div>
@@ -426,18 +424,6 @@
             </div>
 
             <div class="class-item d-flex align-items-center">
-              <a href="/kabbadi/" class="class-item-thumbnail">
-                <img src="{% static 'images/neutral-removebg-preview.jpg' %}" alt="Free website template by Free-Template.co">
-              </a>
-              <div class="class-item-text">
-                
-                <h2><a href="/kabbadi/">KABADDI</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
-              </div>
-            </div>
-
-            <div class="class-item d-flex align-items-center">
               <a href="/karate/" class="class-item-thumbnail">
                 <img src="{% static 'images/taekwondo.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -456,7 +442,7 @@
               <div class="class-item-text">
                 
                 <h2><a href="/yoga/">YOGA</a></h2>
-                {% comment %} <span>By Justin Daniel</span>
+                {% comment %} <span>By Justin Daniel</span>,
                 <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
@@ -479,7 +465,7 @@
 
     
     
-    {% comment %} <div class="site-section" id="trainer-section">
+   {% comment %} <div class="site-section" id="trainer-section">
       <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
           <div class="col-md-8  section-heading">
@@ -488,8 +474,8 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="">
+        <div class="row text-center">
+           <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="">
             <div class="person">
               <img src="{% static 'images/person_1.jpg' %}" alt="Free website template by Free-Template.co" class="img-fluid">
               <h3>Justin Daniel</h3>
@@ -526,15 +512,15 @@
             </div>
           </div>
         
-        </div>
+        </div> 
       </div>
-    </div> {% endcomment %}
+    </div>{% endcomment %}
 
     <div class="schedule-wrap2 clearfix">
       <div class="d-md-flex align-items-center">
         <div class="hours mr-md-4 mb-4 mb-lg-0">
-          <strong class="d-block">Phone no:+91 9811671621</strong>
-          <strong class="d-block"></strong><a href="mailto:arjitgoyal1704@gmail.com">Email:arjitgoyal1704@gmail.com</a>
+          <strong class="d-block">Phone no:+91 9140900503</strong>
+          <strong class="d-block"></strong><a href="mailto:xyz@gmail.com">Email:xyz@gmail.com</a>
          
           <!-- &mdash; -->
           
