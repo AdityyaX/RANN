@@ -30,7 +30,6 @@ urlpatterns = [
     path('pool/', include('home.urls')),
     path('carrom/', include('home.urls')),
     path('chess/', include('home.urls')),
-    path('shot_put/', include('home.urls')),
     path('athletics/', include('home.urls')),
     path('kabbadi/', include('home.urls')),
     path('karate/', include('home.urls')),
