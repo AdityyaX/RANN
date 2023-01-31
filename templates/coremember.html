@@ -39,6 +39,19 @@
         height: 12em;
         width: 12em;
     }
+    .teacher{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .head{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
 </style>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -87,8 +100,41 @@
       </div>
 
       <div class="site-section" id="services-section">
+        <div class="container">
+          <h2 class="head">Sports Officer</h2>
+          <div class="teacher">
+            <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+              <div class="ftco-feature-1">
+                <!-- <span class="icon flaticon-fit"></span> -->
+                <img src="{% static '/images/coremember/Dhananjay sir.jpeg' %}" id="coremember" alt="" >
+                <div class="ftco-feature-1-text">
+                  <h2>Dhananjay Sharma</h2>
+                  
+                  <p>Contact : 9718090052</p>
+                  <p>dhananjay.sharma@kiet.edu</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+              <div class="ftco-feature-1">
+                <!-- <span class="icon flaticon-fit"></span> -->
+                <img src="{% static '/images/coremember/mona mam.jpeg' %}" id="coremember" alt="" >
+                <div class="ftco-feature-1-text">
+                  <h2>Mona Agarwal</h2>
+                 
+                  <p>Contact : 9058958681</p>
+                  <p>mona.agarwal@kiet.edu</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        
           <div class="container">
-    
+            <h2 class="head">Student Coordinators</h2>
             <div class="row">
               <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
                 <div class="ftco-feature-1">
