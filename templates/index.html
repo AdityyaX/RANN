@@ -44,6 +44,12 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
+  <div id="loader">
+    <!-- <div class="spinner">
+      <div class="spinnerin"></div>
+  </div> -->
+  </div>
+
   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
@@ -103,7 +109,7 @@
       <div class="d-md-flex align-items-center">
        
         <div class="timercontainer">
-          <h1 id="headline" style="font-weight: bolder">Game Starts in</h1>
+          <h1 id="headline" style="font-weight: bolder">Rann Starts in</h1>
           <div id="countdown">
             <ul>
               <li class="timerli"><span id="days"></span>Days</li>
@@ -264,186 +270,156 @@
         </div>
         <div class="row">
           <div class="col-lg-6">
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/football/" class="class-item-thumbnail">
                 <img src="{% static '/images/football-player.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/football/">FOOTBALL</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center"  style="cursor: pointer;">
               <a href="/cricket/" class="class-item-thumbnail">
                 <img src="{% static 'images/cricket.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/cricket/">CRICKET</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/volleyball/" class="class-item-thumbnail">
                 <img src="{% static 'images/volleyball.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/volleyball/">VOLLYBALL</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/badminton/" class="class-item-thumbnail">
                 <img src="{% static 'images/badminton.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/badminton/">BADMINTON</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/carrom/" class="class-item-thumbnail">
                 <img src="{% static 'images/carrom.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/carrom/">CARROM</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/chess/" class="class-item-thumbnail">
                 <img src="{% static 'images/chess.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/chess/">CHESS</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/athletics/" class="class-item-thumbnail">
                 <img src="{% static 'images/athletic.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/athletics/">ATHLETICS</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/kabbadi/" class="class-item-thumbnail">
                 <img src="{% static 'images/neutral-removebg-preview.jpg' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/kabbadi/">KABADDI</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
             
           </div>
           <div class="col-lg-6">
             
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/table_tennis/" class="class-item-thumbnail">
                 <img src="{% static 'images/ping-pong.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/table_tennis/">TABLE TENNIS</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/lawn_tennis/" class="class-item-thumbnail">
                 <img src="{% static 'images/tennis.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/lawn_tennis/">LAWN TENNIS</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/basketball/" class="class-item-thumbnail">
                 <img src="{% static 'images/basketball.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/basketball/">BASKETBALL</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/pool/" class="class-item-thumbnail">
                 <img src="{% static 'images/billiards.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/pool/">POOL</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/online_games/" class="class-item-thumbnail">
                 <img src="{% static 'images/player-removebg-preview.jpg' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/online_games/">Esports</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/karate/" class="class-item-thumbnail">
                 <img src="{% static 'images/taekwondo.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/karate/">KARATE</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
               <a href="/yoga/" class="class-item-thumbnail">
                 <img src="{% static 'images/squats.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/yoga/">YOGA</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
 
@@ -577,6 +553,12 @@
 
 
   </div>
+  <script>
+    var loader = document.getElementById("loader")
+    window.addEventListener("load", function(){
+      loader.style.display = "none"
+    })
+  </script>
   <!-- .site-wrap -->
   <script src="{% static 'js/timer.js' %}"></script>
   <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
