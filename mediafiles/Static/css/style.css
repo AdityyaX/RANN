@@ -206,7 +206,7 @@ h5,
 }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 1em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -1222,7 +1222,7 @@ h5,
 .class-item {
   border-radius: 4px;
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
   overflow: hidden;
   margin-bottom: 30px;
   position: relative;
@@ -1358,9 +1358,7 @@ h5,
   text-decoration: none;
 }
 
-.footer-section {
-  padding: 7em 0;
-}
+
 
 .footer-section p {
   font-size: 1rem;
@@ -1371,7 +1369,7 @@ h5,
   letter-spacing: .1rem;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: 900;
 }
 
@@ -1411,7 +1409,7 @@ h5,
 }
 
 .footer-section {
-  padding-top: 12rem !important; }
+  padding-top: 8rem !important; }
 
   #loader{
     background: #000000 url("https://blog.hubspot.com/hs-fs/hubfs/7a8f8d634013568124e130728834d47a.gif?width=1500&name=7a8f8d634013568124e130728834d47a.gif") center center;
@@ -1455,6 +1453,7 @@ h5,
       transform: rotate(360deg);
     }
   }
+
 
 
 
