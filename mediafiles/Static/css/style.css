@@ -969,7 +969,7 @@ h5,
 .intro-section:after {
   content: "";
   position: absolute;
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0.5);
   top: 0;
   left: 0;
   right: 0;
@@ -1412,7 +1412,7 @@ h5,
   padding-top: 8rem !important; }
 
   #loader{
-    background: #000000 url("https://blog.hubspot.com/hs-fs/hubfs/7a8f8d634013568124e130728834d47a.gif?width=1500&name=7a8f8d634013568124e130728834d47a.gif") center center;
+    background: #000000 url("http://drive.google.com/uc?export=view&id=1r89LprbMveHYAjpy0b14qclqBFostljQ") center center;
     /* background-size: 40%; */
     display: flex;
     align-items: center;
@@ -1423,36 +1423,6 @@ h5,
     position: fixed;
     background-repeat: no-repeat;
 }
-  
-
-
-  .spinner {
-    width: 3em;
-    height: 3em;
-    position: absolute;
-    cursor: not-allowed;
-    border-radius: 50%;
-    border: 2px solid #444;
-    box-shadow: -10px -10px 10px #6359f8, 0px -10px 10px 0px #9c32e2, 10px -10px 10px #f36896, 10px 0 10px #ff0b0b, 10px 10px 10px 0px#ff5500, 0 10px 10px 0px #ff9500, -10px 10px 10px 0px #ffb700;
-    animation: rot55 0.7s linear infinite;
-  }
-  
-  .spinnerin {
-    border: 2px solid #444;
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  @keyframes rot55 {
-    to {
-      transform: rotate(360deg);
-    }
-  }
 
 
 
