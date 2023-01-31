@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-  <title>Rann &mdash;  2K23</title>
+  <title> रण &mdash;  2K23</title>
   {% comment %} <meta http-equiv="cache-control" content="no-cache" /> {% endcomment %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +19,9 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
   <link rel="stylesheet" href="{% static '/css/timer.css' %}">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Poppins:ital,wght@1,200&family=Tiro+Devanagari+Hindi:ital@1&family=Work+Sans:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
   <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
   <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
@@ -66,13 +68,14 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="/">Rann 23<span></span> </a></div>
+          <div class="site-logo"><a href="/"><i> रण 2k23</i><span></span> </a></div>
           <div class="ml-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#site-section" class="nav-link">Guest</a></li>
                 <li><a href="#classes-section" class="nav-link">Events</a></li>
+                <li><a href="https://forms.gle/PHcr5TrBaQ8Q7wfq7" class="nav-link">Accommodation</a></li>
                 <li><a href="/coremember/" class ="nav-link">Core Members</a></li>
                 {% comment %} <li><a href="#trainer-section" class="nav-link">Sponsors</a></li> {% endcomment %}
               </ul>
@@ -86,18 +89,18 @@
     </header>
 
     <a id="bgndVideo" class="player"
-      data-property="{videoURL:'https://youtu.be/Rj9namno3Go',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true,quality: 'hd1080', opacity:1}">
+      data-property="{videoURL:'https://youtu.be/DYqMGxMrC8M',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',stopAt:63 ,autoPlay:true, mute:true, opacity:1}">
     </a> 
 
     <div class="intro-section" id="home-section" style="background-color: #ccc;">
       <div class="container text-center">
 
         <div class="row align-items-center">
-          <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-            <h1 class="mb-3">"Unleash your inner athlete at our event!</h1>
-            <p class="text-center">
+          <div class="col-lg-12 mx-auto text-center my-20" data-aos="fade-up">
+            {% comment %} <h1 class="mb-3">"Unleash your inner athlete at our event!</h1> {% endcomment %}
+            {% comment %} <p class="text-center">
               <a href="#classes-section" class="btn btn-outline-white py-3 px-5">Get Started</a>
-            </p>
+            </p> {% endcomment %}
           </div>
         </div>
 
@@ -126,7 +129,63 @@
         </div>
       </div>
     </div>
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2 class="text-center">About Rann</h2>
+          <!-- <h3>Find Out More <span>About The Club</span></h3> -->
+          <p> Presenting the fifth edition of the biggest Sports fest
+            of Ghaziabad, RANN' 23, spanning over three days
+            and three nights, shall be a much-needed breather
+            from the turmoil of engineering school life. With a
+            host of sports events to hit the ground running, it
+            promises to be an experience that'd stick with you
+            long after it'
+            
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 " data-aos="fade-right" data-aos-delay="100">
+            <img src="/mediafiles/Static/images/Rannlogo.jpg" class="img-fluid rounded-3" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <!-- <h3>Our Club</h3> -->
+            <!-- <p class="fst-italic">
+              The Club is for the students and by the students. So the club provides the platform for the students to
+              learn
+              and the platform where they can put their ideas easily and the club will help to nurture them
+
+            </p> -->
+            <ul>
+              <li>
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <h5>Our Mission</h5>
+                  <p> Promoting physical activity and health: Many sports events aim to encourage and inspire individuals to participate in physical activity and adopt a healthy lifestyle.!! 💫 
+
+                  </p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-images"></i>
+                <div>
+                  <h5>Our Vision</h5>
+                  <p>Providing an outstanding and memorable experience: Creating an event that participants will remember and talk about long after it is over.!!✨
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <p>
+              <!--content removed-->
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
     <div id="site-section" class="site-section">
       <div class="container">
 
@@ -154,7 +213,7 @@
               <div class="ftco-feature-1-text">
                 <h2>Dharmendra Singh Yadav </h2>
                 <p style="font-weight:bold; color:black;">Boxing</p>
-                <p>He recieved Arjuna Award for Boxing.He won 3 silver and 7 bronze medal in International Events</p>
+                <p>He recieved Arjuna Award for Boxing.</p>
               </div>
             </div>
           </div>
@@ -175,7 +234,7 @@
               <div class="ftco-feature-1-text">
                 <h2>Priyanka Sikarwar</h2>
                 <p style="font-weight:bold; color:black;">Athletics</p>
-                <p>She is kheloindia medallist.Also a U20 junior national medallist <br><br><br></p>
+                <p>She is kheloindia medallist. Also a U20 junior national medallist <br><br><br></p>
               </div>
             </div>
           </div>
@@ -225,9 +284,9 @@
             <div class="ftco-feature-1">
               <img src="{% static 'images/WhatsApp_Image_2023-01-28_at_2.55.40_PM_650x540.jpeg' %}" style="border-radius: 10px;">
               <div class="ftco-feature-1-text">
-                <h2>Sishu Pal Chahar</h2>
+                <h2>Shishu Pal Chahar</h2>
                 <p style="font-weight:bold; color:black;">Boxing</p>
-                <p></p>
+                <p>National player, Agra boxing coach</p>
               </div>
             </div>
           </div>
@@ -235,9 +294,9 @@
             <div class="ftco-feature-1">
               <img src="{% static 'images/S.R.Sawoo.jpeg' %}" style="border-radius: 10px;">
               <div class="ftco-feature-1-text">
-                <h2>Mr. S.R.Sawoo</h2>
+                <h2>S.R.Sawoo</h2>
                 <p style="font-weight:bold; color:black;">Athletics</p>
-                <p>National athletes player.</p>
+                <p>National Athletics player.</p>
               </div>
             </div>
           </div>
@@ -296,7 +355,9 @@
               </a>
               <div class="class-item-text">
                 
-                <h2><a href="/volleyball/">VOLLYBALL</a></h2>
+                <h2><a href="/volleyball/">VOLLEYBALL</a></h2>
+                {% comment %} <span>By Justin Daniel</span>,
+                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
             
@@ -427,6 +488,123 @@
         </div>
       </div>
     </div>
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title" id="About">
+          <h2 class="text-center">About Rann</h2>
+          <br>
+          <!-- <h3>Find Out More <span>About The Rann</span></h3> -->
+          <p>Rann is a annual sports event organised by KIET Group of institutions
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 " data-aos="fade-right" data-aos-delay="100">
+           
+  
+            <div class="col-lg-6 ">
+              <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.873564612294!2d77.49507531501182!3d28.753191682370286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf574d18f2b6f%3A0x4a65c0bc0122eb2f!2sKIET%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1669612538339!5m2!1sen!2sin" frameborder="0" style="border:0; width: 500px; height: 384px;"
+                allowfullscreen></iframe>
+                
+              <!-- src should be added -->
+            </div>
+            
+  
+          </div>
+          
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="text-center m">
+            <!-- <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100"> -->
+            <h3>CONTACT US</h3>
+            <br>
+            <!-- <p class="fst-italic">
+              The Club is for the students and by the students. So the club provides the platform for the students to
+              learn
+              and the platform where they can put their ideas easily and the club will help to nurture them
+
+            </p> -->
+            <ul>
+              <li>
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <h5>Phone numbers:</h5>
+                  <p> 9058958681
+                    <br>
+                    9718090052 
+
+                  </p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-images"></i>
+                <div>
+                  <h5>Emails</h5>
+                  <p>
+                    <a href="mailto: mona.agarwal@kiet.edu">    mona.agarwal@kiet.edu</a>
+                <br>
+                <a href="mailto:dhananjay.sharma@kiet.edu">   dhananjay.sharma@kiet.edu</a>
+
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <p>
+              <!--content removed-->
+            </p>
+          <!-- </div> -->
+            <!-- <span id="text-center mt-1">CONTACT US</span> -->
+            <!-- <h3>Our Club</h3> -->
+            <!-- <p class="fst-italic">
+              Presenting the fifth edition of the biggest Sports fest
+of Ghaziabad, RANN' 23, spanning over three days
+and three nights, shall be a much-needed breather
+from the turmoil of engineering school life. With a
+host of sports events to hit the ground running, it
+promises to be an experience that'd stick with you
+long after it'
+
+'
+
+
+            </p>
+            <ul>
+              <li>
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <h5>Our Mission</h5>
+                  <p> Promoting physical activity and health: Many sports events aim to encourage and inspire individuals to participate in physical activity and adopt a healthy lifestyle.!! 💫 
+
+                  </p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-images"></i>
+                <div>
+                  <h5>Our Vision</h5>
+                  <p>Providing an outstanding and memorable experience: Creating an event that participants will remember and talk about long after it is over.!!✨
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <p>
+              content removed
+            </p> -->
+
+          
+          </div>
+        </div>
+        </div>
+
+      </div>
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+          
+    </section>
+ 
 
     <div class="bgimg" style="background-image: url('https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');"  data-stellar-background-ratio="0.5">
       <div class="container">
@@ -439,9 +617,9 @@
       </div>
     </div>
 
-    
-    
-   {% comment %} <div class="site-section" id="trainer-section">
+
+
+    {% comment %} <div class="site-section" id="trainer-section">
       <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
           <div class="col-md-8  section-heading">
@@ -491,7 +669,7 @@
         </div> 
       </div>
     </div>{% endcomment %}
-
+    
     <div class="schedule-wrap2 clearfix">
       <div class="d-md-flex align-items-center">
         <div class="hours mr-md-4 mb-4 mb-lg-0">
