@@ -47,9 +47,6 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
   <div id="loader">
-    <!-- <div class="spinner">
-      <div class="spinnerin"></div>
-  </div> -->
   </div>
 
   <div class="site-wrap">
@@ -90,7 +87,10 @@
 
     <a id="bgndVideo" class="player"
       data-property="{videoURL:'https://youtu.be/DYqMGxMrC8M',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',stopAt:63 ,autoPlay:true, mute:true, opacity:1}">
-    </a> 
+    </a>
+    {% comment %} <a id="bgndVideo" class="player"
+      data-property="{videoURL:'https://youtube.com/shorts/QGw6iyDbF_s',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, opacity:1}">
+    </a>  {% endcomment %}
 
     <div class="intro-section" id="home-section" style="background-color: #ccc;">
       <div class="container text-center">
@@ -98,6 +98,7 @@
         <div class="row align-items-center">
           <div class="col-lg-12 mx-auto text-center my-20" data-aos="fade-up">
             {% comment %} <h1 class="mb-3">"Unleash your inner athlete at our event!</h1> {% endcomment %}
+            {% comment %} <img src="/mediafiles/Static/images/translogo.png" class="img-fluid rounded-3" alt=""> {% endcomment %}
             {% comment %} <p class="text-center">
               <a href="#classes-section" class="btn btn-outline-white py-3 px-5">Get Started</a>
             </p> {% endcomment %}
@@ -122,9 +123,23 @@
             </ul>
           </div>
         </div>
+        {% comment %} <div>
+            <span> <a href="#"><button type="button">Brochure</button></a> </span>
+            <span> <a href="#"><button type="button">Rule Book</button></a> </span>
+          </div> {% endcomment %}
         <div class="cta ml-auto">
           <a href="#classes-section" class="smoothscroll d-flex d-md-flex align-items-center btn">
             <span class="mx-auto">  <span>Want to be part?</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
+          </a>
+        </div>
+        <div class="cta ml-auto">
+          <a href="https://drive.google.com/file/d/18o1oi5HFyFqPOl5ZERk1hCA8w-qC8Z99/view?usp=sharing" class="smoothscroll d-flex d-md-flex align-items-center btn">
+            <span class="mx-auto">  <span>Brochure</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
+          </a>
+        </div>
+        <div class="cta ml-auto">
+          <a href="https://drive.google.com/file/d/1v3DQwtwZ8-K-Liz2DEDsf8gss7PKJ3cf/view?usp=sharing" class="smoothscroll d-flex d-md-flex align-items-center btn">
+            <span class="mx-auto">  <span>Rules</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
           </a>
         </div>
       </div>
@@ -133,7 +148,9 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2 class="text-center">About Rann</h2>
+          <h2 class="text-center about" style=" color: #000;
+          font-size: 2.5rem;
+          font-weight: 900;">About Rann</h2>
           <!-- <h3>Find Out More <span>About The Club</span></h3> -->
           <p> Presenting the fifth edition of the biggest Sports fest
             of Ghaziabad, RANN' 23, spanning over three days
@@ -195,6 +212,13 @@
           </div>
         </div>
         <div class="row" style="display: flex; align-items: center; justify-content: center;">
+          
+          {% comment %} <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+            <div class="ftco-feature-1" id="hockeyimg">
+              <img src="{% static 'images/hockeylogo.png' %}" id="" alt=""  >
+              
+            </div>
+          </div> {% endcomment %}
           <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
             <div class="ftco-feature-1">
               <img src="{% static 'images/Ashok2.jpeg' %}" id="" alt="Mr. Ashok Kumar Singh" style="border-radius: 10px;" >
@@ -205,6 +229,12 @@
               </div>
             </div>
           </div>
+          {% comment %} <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+            <div class="ftco-feature-1" id="hockeyimg">
+              <img src="{% static 'images/hockeylogo.png' %}" id="" alt=""  >
+              
+            </div>
+          </div> {% endcomment %}
         <!-- Slider -->
         <div class="owl-carousel nonloop-block-14 block-14" data-aos="fade">
           <div class="slide">
@@ -213,7 +243,7 @@
               <div class="ftco-feature-1-text">
                 <h2>Dharmendra Singh Yadav </h2>
                 <p style="font-weight:bold; color:black;">Boxing</p>
-                <p>He recieved Arjuna Award for Boxing.</p>
+                <p>He is an olympian. He recieved Arjuna Award for Boxing.He won 3 silver and 7 bronze medal in International Events.</p>
               </div>
             </div>
           </div>
@@ -492,10 +522,10 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title" id="About">
-          <h2 class="text-center">About Rann</h2>
+          <h2 class="text-center" style="color: #000; font-size: 2.5rem; font-weight: 900;">Venue</h2>
           <br>
           <!-- <h3>Find Out More <span>About The Rann</span></h3> -->
-          <p>Rann is a annual sports event organised by KIET Group of institutions
+          <p class="text-center">Rann is a annual sports event organised by KIET Group of institutions
           </p>
         </div>
 
@@ -526,7 +556,7 @@
               and the platform where they can put their ideas easily and the club will help to nurture them
 
             </p> -->
-            <ul>
+            <ul style="list-style: none;">
               <li>
                 <i class="bx bx-store-alt"></i>
                 <div>
@@ -715,9 +745,9 @@ long after it'
 
         </div>
 
-        <div class="row pt-5 mt-5 text-center">
+        <div class="row  mt-5 text-center">
           <div class="col-md-12">
-            <div class=" pt-5">
+            <div class=" pt-1">
               <p class="copyright"><small>&copy;
                   <script>document.write(new Date().getFullYear());</script> Rann 2023. All Rights Reserved. Design by <a
                     href="https://innogeeks.in/" target="_blank">Team Innogeeks❤️</a></small></p>
@@ -729,7 +759,7 @@ long after it'
     </footer>
 
 
-
+    
   </div>
   <script>
     var loader = document.getElementById("loader")
@@ -754,6 +784,5 @@ long after it'
   <script src="{% static 'js/jquery.sticky.js' %}"></script>
   <script src="{% static 'js/jquery.mb.YTPlayer.min.js' %}"></script>
   <script src="{% static 'js/main.js' %}"></script>
-
 </body>
 </html>
