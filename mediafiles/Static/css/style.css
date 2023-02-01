@@ -969,7 +969,7 @@ h5,
 .intro-section:after {
   content: "";
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   top: 0;
   left: 0;
   right: 0;
