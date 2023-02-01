@@ -1452,6 +1452,10 @@ h5,
     position: fixed;
     background-repeat: no-repeat;
 }
+@media screen and (min-width: 768px) {
+  #loader{
+    background: #000000 url("https://drive.google.com/file/d/1xjPsC4G-njku2z0ShlJIKMW7lr2iPn75/view?usp=sharing") center center;}
+}
 
 
 
