@@ -1058,6 +1058,7 @@ h5,
   text-align: center;
   background: #000000;
   color: #fff;
+  margin: 7px;
   padding: 10px 20px;
 }
 
@@ -1389,6 +1390,7 @@ h5,
 
 .footer-section p {
   font-size: 1rem;
+  margin-top: 90px;
 }
 
 .footer-section h3 {
