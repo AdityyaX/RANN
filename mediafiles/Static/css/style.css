@@ -1039,7 +1039,14 @@ h5,
   transform: skew(-12deg, 0deg); */
 }
 #hockeyimg img{
-  width: 50px;
+  width: 250px;
+  background: white;
+  margin-bottom: 137px;
+}
+@media screen and (max-width:1201px){
+  #hockeyimg{
+    opacity: 0;
+  }
 }
 .schedule-wrap strong {
   color: #fff;
