@@ -1044,8 +1044,9 @@ h5,
   margin-bottom: 137px;
 }
 @media screen and (max-width:1201px){
-  #hockeyimg{
-    opacity: 0;
+  #hockey{
+    /* opacity: 0; */
+    display: none;
   }
 }
 .schedule-wrap strong {
@@ -1082,6 +1083,9 @@ h5,
 /* #bgndVideo2{
   display: none;
 } */
+#iframe{
+  border:0; width: 500px; height: 384px; padding-bottom: 50px"
+}
 @media screen and (max-width:731px){
 
   /* #bgndVideo1{
@@ -1090,6 +1094,10 @@ h5,
   #bgndVideo2{
     display: 1;
   } */
+  #iframe{
+    width: 100%;
+    height: 100%;
+  }
   .schedule-wrap:before {
     content: "";
     position: absolute;
