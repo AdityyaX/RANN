@@ -87,7 +87,10 @@
 
     <a id="bgndVideo" class="player"
       data-property="{videoURL:'https://youtu.be/DYqMGxMrC8M',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',stopAt:63 ,autoPlay:true, mute:true, opacity:1}">
-    </a> 
+    </a>
+    {% comment %} <a id="bgndVideo" class="player"
+      data-property="{videoURL:'https://youtube.com/shorts/QGw6iyDbF_s',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, opacity:1}">
+    </a>  {% endcomment %}
 
     <div class="intro-section" id="home-section" style="background-color: #ccc;">
       <div class="container text-center">
@@ -95,6 +98,7 @@
         <div class="row align-items-center">
           <div class="col-lg-12 mx-auto text-center my-20" data-aos="fade-up">
             {% comment %} <h1 class="mb-3">"Unleash your inner athlete at our event!</h1> {% endcomment %}
+            {% comment %} <img src="/mediafiles/Static/images/translogo.png" class="img-fluid rounded-3" alt=""> {% endcomment %}
             {% comment %} <p class="text-center">
               <a href="#classes-section" class="btn btn-outline-white py-3 px-5">Get Started</a>
             </p> {% endcomment %}
@@ -126,6 +130,16 @@
         <div class="cta ml-auto">
           <a href="#classes-section" class="smoothscroll d-flex d-md-flex align-items-center btn">
             <span class="mx-auto">  <span>Want to be part?</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
+          </a>
+        </div>
+        <div class="cta ml-auto">
+          <a href="https://drive.google.com/file/d/18o1oi5HFyFqPOl5ZERk1hCA8w-qC8Z99/view?usp=sharing" class="smoothscroll d-flex d-md-flex align-items-center btn">
+            <span class="mx-auto">  <span>Brochure</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
+          </a>
+        </div>
+        <div class="cta ml-auto">
+          <a href="https://drive.google.com/file/d/1v3DQwtwZ8-K-Liz2DEDsf8gss7PKJ3cf/view?usp=sharing" class="smoothscroll d-flex d-md-flex align-items-center btn">
+            <span class="mx-auto">  <span>Rules</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
           </a>
         </div>
       </div>
@@ -198,6 +212,13 @@
           </div>
         </div>
         <div class="row" style="display: flex; align-items: center; justify-content: center;">
+          
+          {% comment %} <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+            <div class="ftco-feature-1" id="hockeyimg">
+              <img src="{% static 'images/hockeylogo.png' %}" id="" alt=""  >
+              
+            </div>
+          </div> {% endcomment %}
           <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
             <div class="ftco-feature-1">
               <img src="{% static 'images/Ashok2.jpeg' %}" id="" alt="Mr. Ashok Kumar Singh" style="border-radius: 10px;" >
@@ -208,6 +229,12 @@
               </div>
             </div>
           </div>
+          {% comment %} <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+            <div class="ftco-feature-1" id="hockeyimg">
+              <img src="{% static 'images/hockeylogo.png' %}" id="" alt=""  >
+              
+            </div>
+          </div> {% endcomment %}
         <!-- Slider -->
         <div class="owl-carousel nonloop-block-14 block-14" data-aos="fade">
           <div class="slide">
