@@ -1390,7 +1390,8 @@ h5,
 
 .footer-section p {
   font-size: 1rem;
-  margin-top: 90px;
+  margin-top: 28px;
+  /* margin-top: 90px; */
 }
 
 .footer-section h3 {
