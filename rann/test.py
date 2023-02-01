@@ -4,7 +4,7 @@ from django.urls import reverse
 client = Client()
 
 
-class FooTest(TestCase):
+class BuildTest(TestCase):
     def test_create(self):
         response = self.client.get('/')
         print(response.status_code)
