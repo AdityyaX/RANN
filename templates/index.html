@@ -72,8 +72,8 @@
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#site-section" class="nav-link">Guest</a></li>
                 <li><a href="#classes-section" class="nav-link">Events</a></li>
-                <li><a onclick="window.open('https://forms.gle/PHcr5TrBaQ8Q7wfq7')" class="nav-link">Accommodation</a></li>
-                <li><a onclick="window.open('/coremember/')" class ="nav-link">Core Members</a></li>
+                <li><a onclick="window.open('https://forms.gle/PHcr5TrBaQ8Q7wfq7')" class="nav-link" style="cursor: pointer;">Accommodation</a></li>
+                <li><a onclick="window.open('/coremember/')" class ="nav-link" style="cursor: pointer;">Core Members</a></li>
                 {% comment %} <li><a href="#trainer-section" class="nav-link">Sponsors</a></li> {% endcomment %}
               </ul>
             </nav>
@@ -113,7 +113,7 @@
       <div class="d-md-flex align-items-center">
        
         <div class="timercontainer">
-          <h1 id="headline" style="font-weight: bolder">Rann Starts in</h1>
+          <h1 id="headline" style="font-weight: 1100">Event Begins in</h1>
           <div id="countdown">
             <ul>
               <li class="timerli"><span id="days"></span>Days</li>
@@ -123,23 +123,19 @@
             </ul>
           </div>
         </div>
-        {% comment %} <div>
-            <span> <a href="#"><button type="button">Brochure</button></a> </span>
-            <span> <a href="#"><button type="button">Rule Book</button></a> </span>
-          </div> {% endcomment %}
         <div class="cta ml-auto">
           <a href="#classes-section" class="smoothscroll d-flex d-md-flex align-items-center btn">
             <span class="mx-auto">  <span>Want to be part?</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
           </a>
         </div>
-        <div class="cta ml-auto">
+        <div class="cta ml-5">
           <a href="https://drive.google.com/file/d/18o1oi5HFyFqPOl5ZERk1hCA8w-qC8Z99/view?usp=sharing" class="smoothscroll d-flex d-md-flex align-items-center btn">
             <span class="mx-auto">  <span>Brochure</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
           </a>
         </div>
-        <div class="cta ml-auto">
+        <div class="cta mr-5 ml-5">
           <a href="https://drive.google.com/file/d/1v3DQwtwZ8-K-Liz2DEDsf8gss7PKJ3cf/view?usp=sharing" class="smoothscroll d-flex d-md-flex align-items-center btn">
-            <span class="mx-auto">  <span>Rules</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
+            <span class="mx-auto">  <span>Rules Book</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
           </a>
         </div>
       </div>
@@ -359,7 +355,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6">
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/football'">
               <a href="/football/" class="class-item-thumbnail">
                 <img src="{% static '/images/football-player.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -369,7 +365,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center"  style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center"  style="cursor: pointer;" onclick="window.location.href='/cricket'">
               <a href="/cricket/" class="class-item-thumbnail">
                 <img src="{% static 'images/cricket.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -379,19 +375,17 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/volleyball'">
               <a href="/volleyball/" class="class-item-thumbnail">
                 <img src="{% static 'images/volleyball.gif' %}" alt="Free website template by Free-Template.co">
               </a>
               <div class="class-item-text">
                 
                 <h2><a href="/volleyball/">VOLLEYBALL</a></h2>
-                {% comment %} <span>By Justin Daniel</span>,
-                <span>30 minutes</span> {% endcomment %}
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/badminton'">
               <a href="/badminton/" class="class-item-thumbnail">
                 <img src="{% static 'images/badminton.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -401,7 +395,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/carrom'">
               <a href="/carrom/" class="class-item-thumbnail">
                 <img src="{% static 'images/carrom.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -411,7 +405,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/chess'">
               <a href="/chess/" class="class-item-thumbnail">
                 <img src="{% static 'images/chess.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -421,7 +415,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/athletics'">
               <a href="/athletics/" class="class-item-thumbnail">
                 <img src="{% static 'images/athletic.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -431,7 +425,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/kabbadi'">
               <a href="/kabbadi/" class="class-item-thumbnail">
                 <img src="{% static 'images/neutral-removebg-preview.jpg' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -444,7 +438,7 @@
           </div>
           <div class="col-lg-6">
             
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/table_tennis'">
               <a href="/table_tennis/" class="class-item-thumbnail">
                 <img src="{% static 'images/ping-pong.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -454,7 +448,7 @@
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/lawn_tennis'">
               <a href="/lawn_tennis/" class="class-item-thumbnail">
                 <img src="{% static 'images/tennis.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -464,7 +458,7 @@
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/basketball'">
               <a href="/basketball/" class="class-item-thumbnail">
                 <img src="{% static 'images/basketball.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -474,7 +468,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/pool'">
               <a href="/pool/" class="class-item-thumbnail">
                 <img src="{% static 'images/billiards.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -484,7 +478,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/online_games'">
               <a href="/online_games/" class="class-item-thumbnail">
                 <img src="{% static 'images/player-removebg-preview.jpg' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -494,7 +488,7 @@
               </div>
             </div>
 
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/karate'">
               <a href="/karate/" class="class-item-thumbnail">
                 <img src="{% static 'images/taekwondo.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -504,7 +498,7 @@
               </div>
             </div>
             
-            <div class="class-item d-flex align-items-center" style="cursor: pointer;">
+            <div class="class-item d-flex align-items-center" style="cursor: pointer;" onclick="window.location.href='/yoga'">
               <a href="/yoga/" class="class-item-thumbnail">
                 <img src="{% static 'images/squats.gif' %}" alt="Free website template by Free-Template.co">
               </a>
@@ -534,7 +528,7 @@
            
   
             <div class="col-lg-6 ">
-              <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.873564612294!2d77.49507531501182!3d28.753191682370286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf574d18f2b6f%3A0x4a65c0bc0122eb2f!2sKIET%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1669612538339!5m2!1sen!2sin" frameborder="0" style="border:0; width: 500px; height: 384px;"
+              <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.873564612294!2d77.49507531501182!3d28.753191682370286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf574d18f2b6f%3A0x4a65c0bc0122eb2f!2sKIET%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1669612538339!5m2!1sen!2sin" frameborder="0" style="border:0; width: 500px; height: 384px; padding-down: 50px"
                 allowfullscreen></iframe>
                 
               <!-- src should be added -->
@@ -559,18 +553,18 @@
             <ul style="list-style: none;">
               <li>
                 <i class="bx bx-store-alt"></i>
-                <div>
+                <div style="text-align: left; padding-left: 200px">
                   <h5>Phone numbers:</h5>
-                  <p> 9058958681
+                  <p> Ms. Mona Agarwal : 9058958681
                     <br>
-                    9718090052 
+                    Mr. Dhananjay Sharma : 9718090052 
 
                   </p>
                 </div>
               </li>
               <li>
                 <i class="bx bx-images"></i>
-                <div>
+                <div style="text-align: left; padding-left: 200px">
                   <h5>Emails</h5>
                   <p>
                     <a href="mailto: mona.agarwal@kiet.edu">    mona.agarwal@kiet.edu</a>
