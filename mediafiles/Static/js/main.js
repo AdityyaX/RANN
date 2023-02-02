@@ -282,9 +282,17 @@ jQuery(document).ready(function($) {
   };
 	siteScroll();
 	
+	const mediaQuery = window.matchMedia('(max-width: 768px)');
+	if(!mediaQuery.matches){
+		$(function () {
+			$("#bgndVideo").YTPlayer();
+		});
 
-	$(function () {
-		$("#bgndVideo").YTPlayer();
-	});
-
+	}
+	else{
+		$(function () {
+			$("#bgndVideo2").YTPlayer();
+		});
+	}
+	
 });

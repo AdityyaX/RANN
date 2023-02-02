@@ -1067,6 +1067,11 @@ h5,
   position: relative;
   top: 3px;
 }
+@media screen and (max-width:768px){
+  .schedule-wrap .cta a {
+    margin-left: -36px;
+  }
+}
 
 .schedule-wrap2 {
   padding: 40px;
@@ -1081,20 +1086,12 @@ h5,
   transform: translateY(-50%);
 }
 
-/* #bgndVideo2{
-  display: none;
-} */
+
 #iframe{
   border:0; width: 500px; height: 384px; padding-bottom: 50px"
 }
 @media screen and (max-width:731px){
 
-  /* #bgndVideo1{
-    display: none;
-  }
-  #bgndVideo2{
-    display: 1;
-  } */
   #iframe{
     width: 100%;
     height: 100%;
