@@ -1435,11 +1435,11 @@ h5,
 }
 
 .contact-wrap {
-  padding-bottom: 8rem !important;
+  padding-bottom: 8rem ;
 }
 
 .footer-section {
-  padding-top: 8rem !important; }
+  padding-top: 14rem ; }
 
   #loader{
     background: #000000 url("http://drive.google.com/uc?export=view&id=1r89LprbMveHYAjpy0b14qclqBFostljQ") center center;
