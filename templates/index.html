@@ -4,6 +4,7 @@
 <html lang="en">
 
 <head>
+
   <title> रण &mdash;  2K23</title>
   {% comment %} <meta http-equiv="cache-control" content="no-cache" /> {% endcomment %}
   <meta charset="utf-8">
@@ -39,6 +40,27 @@
 
   {% comment %} <link rel="stylesheet" href="css/style.css"> {% endcomment %}
   <link rel="stylesheet" href="{% static '/css/style.css' %}">
+  <style>
+      #loader{
+    background: #000000 center center url({% static 'images/gif2.gif' %});
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    background-repeat: no-repeat;
+  }
+
+    @media screen and (max-width: 768px) {
+
+  #loader{
+    background: #000000 center center url({% static 'images/gif.gif' %});
+  }
+
+}
+  </style>
 
 
 

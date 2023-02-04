@@ -1,4 +1,5 @@
 /* Base */
+
 html {
   overflow-x: hidden;
 }
@@ -1439,7 +1440,7 @@ h5,
   padding-top: 14rem ; }
 
   #loader{
-    background: #000000 url("http://drive.google.com/uc?export=view&id=1r89LprbMveHYAjpy0b14qclqBFostljQ") center center;
+   
     /* background-size: 40%; */
     display: flex;
     align-items: center;
@@ -1450,10 +1451,7 @@ h5,
     position: fixed;
     background-repeat: no-repeat;
 }
-@media screen and (min-width: 768px) {
-  #loader{
-    background: #000000 url("https://drive.google.com/file/d/1xjPsC4G-njku2z0ShlJIKMW7lr2iPn75/view?usp=sharing") center center;}
-}
+
 
 
 
